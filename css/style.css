@@ -1,0 +1,97 @@
+html {
+	font-size:10px;
+	color:#4e4d4d;
+	font-family: roboto, sans-serif;
+}
+
+span, label {
+	font-size:1.5rem;
+}
+
+
+main {
+	max-width: 50rem;
+	margin: 2rem auto;
+	background: linear-gradient(30deg ,#3dc0c0, #5bceae);
+	padding: 3rem 1.6rem 6rem 1.6rem;
+	border-radius: 5rem;
+	box-shadow:0px 4px 5px lightgray;
+}
+
+h1{
+	font-size: 3rem;
+	text-align: center;	
+}
+
+section {
+	padding: 3rem;
+	background: white;
+	margin-bottom: 2rem;
+	border-radius: 1.5rem;
+}
+
+section > div {
+	padding: 1.6rem 0;
+}
+
+.bill {
+	display: flex;
+}
+
+.bill label{
+	align-self: center;
+}
+
+.space-between {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+input[type="number"] {
+	background: #f4f4f5;
+	font-size:1.6rem;
+	border:1px solid lightgray;
+	border-radius: 0.5rem;
+	padding: 1rem 8rem 1rem 0.5rem;
+	box-shadow: inset 0px 4px 5px lightgray;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.total {
+	font-weight: bolder;
+}
+
+.range {
+	-webkit-appearance:none;
+	width: 100%;
+	height: 8px;
+	background: #eee;
+	margin-top: 1.2rem;
+	border-radius: 0.3rem;
+	outline-color: #5bceae;
+}
+
+.range::-webkit-slider-thumb {
+	-webkit-appearance:none;
+	width:2.2rem;
+	height: 2.2rem;
+	border-radius: 50%;
+	background: #3dc0c0;
+	cursor:pointer;
+}
+
+.range::-moz-range-thumb {
+	width:2.2rem;
+	height: 2.2rem;
+	border-radius: 50%;
+	background: #3dc0c0;
+	cursor:pointer;
+	border:none;
+}
